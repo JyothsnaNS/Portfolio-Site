@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<!-- Navbar-->
+		<p class="navbar-text navbar-left"><a href="#" class="navbar-link">Sign In</a></p>
+		<!-- Udacity Logo -->
+		<div class="row">
+			<div class="col-md-6">
+				<img class="logo" src="Images/U.jpg" alt="Udacity logo">
+			</div>
+			<!-- Name-->
+			<div class="col-md-6 text-right text-uppercase">
+				<h1 class="text-thin">Jyothsna NS</h1>
+				<h4>Front-end Web Developer</h4>
+			</div>
+		</div>
+		<!-- Main image-->
+		<div class="row">
+			<div class="col-md-12">
+				<img class="img-responsive img-rounded" src="https://placeimg.com/1140/350/tech" alt="Main Image">
+			</div>
+		</div>
+		<!-- Featured work-->
+		<div class="row">
+			<div class="col-md-12 text-left">
+				<h2 class="text-muted">Featured Work</h2>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img class="img-responsive img-rounded" src="Images/Neighbourhood.jpg" alt="Neighbourhood-Map" data-toggle="modal" data-target="#project1">
+				<h4 class="text-uppercase">Neighbourhood Map</h4>
+				<p><a href="https://jyothsnans.github.io/Project-Neighbourhood-Map/">https://jyothsnans.github.io/Project-Neighbourhood-Map/</a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive img-rounded" src="Images/Game.jpg" alt="Classic Arcade Game Clone" data-toggle="modal" data-target="#project2">
+				<h4 class="text-uppercase">Classic Arcade Game Clone</h4>
+				<p><a href="https://jyothsnans.github.io/frontend-nanodegree-arcade-game">https://jyothsnans.github.io/frontend-nanodegree-arcade-game/</a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive img-rounded" src="Images/Tests.jpg" alt="Feed Reader testing" data-toggle="modal" data-target="#project3">
+				<h4 class="text-uppercase">Feed Reader testing</h4>
+				<p><a href="http://jyothsnans.github.io/frontend-nanodegree-feedreader">http://jyothsnans.github.io/frontend-nanodegree-feedreader/</a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive img-rounded" src="Images/Webopt.jpg" alt="Website Optimization" data-toggle="modal" data-target="#project4">
+				<h4 class="text-uppercase">Website Optimization</h3>
+				<p><a href="https://jyothsnans.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html ">https://jyothsnans.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html/</a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive img-rounded" src="Images/Resume.jpg" alt="Online Resume" data-toggle="modal" data-target="#project5">
+				<h4 class="text-uppercase">Online Resume</h4>
+				<p><a href="https://jyothsnans.github.io/frontend-nanodegree-resume/">https://jyothsnans.github.io/frontend-nanodegree-resume/</a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-responsive img-rounded" src="Images/Article.jpg" alt="Mockup to website" data-toggle="modal" data-target="#project6">
+				<h4 class="text-uppercase">Mockup to website</h4>
+				<p><a href="http://jyothsnans.github.io/ArticleToMockup">http://jyothsnans.github.io/ArticleToMockup/</a></p>
+			</div>
+		</div>
+    </div>
+
+    <!-- Modals -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Neighbourhood Map</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive img-rounded" src="Images/Neighbourhood.jpg" alt="Map">
+        Developed a responsive single-page application featuring a map of a popular tourist place using Knockout JS with functionality including map markers to identify popular locations, a search function to easily discover these locations, and a list view to support simple browsing of all locations.Also incorporated Ajax request to Wikipedia API to provide additional information about each of these locations. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Arcade Game Clone</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive img-rounded" src="Images/Game.jpg" alt="Game">
+        Recreated the classic arcade game Frogger using Object Oriented JavaScript.The game objects and features such as collision detection, player movement, game resets and wins were implemented using Object Oriented Javascript.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Feed Reader Testing</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive img-rounded" src="Images/Tests.jpg" alt="Testing">
+        Wrote different test suites that tests the underlying business logic of the application as well as the event handling and DOM manipulation for a web-based RSS Feed-reader application, using Jasmine.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Website Optimization</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive img-rounded" src="Images/Webopt.jpg" alt="Webopt">
+        Optimized a provided website with a number of optimization and performance related issues in order to provide a smooth user experience at a rate of 60 frames per second. The computational efficiency was improved and a PageSpeed score of more than 90 was achieved by optimizing the Critical Rendering Path
+        (CRP).
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Online Resume</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive img-rounded" src="Images/Resume.jpg" alt="Resume">
+        Built an online resume using HTML, CSS and JS skills where the resume data is stored in a modular fashion  in JavaScript Objects and the data is displayed dynamically.The resume also includes a map that shows markers at locations which are pulled from data in the resume. Bootstrap was used for this project
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Webpage creation using a provided Mockup</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive img-rounded" src="Images/Article.jpg" alt="Mockup">
+        This was my first project in this class. I learned a lot about HTML and CSS.Converted a mockup of a blog article and a design prototype into a functional website.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>  
+</body>
+</html>
